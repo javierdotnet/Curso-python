@@ -1,0 +1,177 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+bucles.py	../bucles.py	1;"	kind:file	line:1
+math	../bucles.py	/^import math$/;"	kind:namespace	line:16
+numero	../bucles.py	/^    numero = int(input('Escribe un numero'))$/;"	kind:variable	line:19
+numero	../bucles.py	/^        numero = int(input('intentalo otra vez'))$/;"	kind:variable	line:23
+i	../bucles.py	/^i=0$/;"	kind:variable	line:28
+cajeroautomatico.py	../cajeroautomatico.py	1;"	kind:file	line:1
+sys	../cajeroautomatico.py	/^import sys$/;"	kind:namespace	line:9
+saldo	../cajeroautomatico.py	/^saldo=1000$/;"	kind:variable	line:11
+operacionRealizar	../cajeroautomatico.py	/^operacionRealizar=''$/;"	kind:variable	line:12
+operacionRealizar	../cajeroautomatico.py	/^	operacionRealizar=input('Operación a realizar : Ingresar(I) ,Retirar(R),Mostar(M),Salir(S) :\\t')$/;"	kind:variable	line:17
+operacionRealizar	../cajeroautomatico.py	/^	operacionRealizar=operacionRealizar.upper()$/;"	kind:variable	line:18
+importe	../cajeroautomatico.py	/^		importe=int(input('Introduce el importe : '))$/;"	kind:variable	line:20
+importe	../cajeroautomatico.py	/^		importe=int(input('Importe a retirar : '))$/;"	kind:variable	line:23
+calculadora_euros_libras.py	../calculadora_euros_libras.py	1;"	kind:file	line:1
+tk	../calculadora_euros_libras.py	/^import tkinter as tk $/;"	kind:namespace	line:6
+convierte	../calculadora_euros_libras.py	/^def convierte(importe , moneda) :$/;"	kind:function	line:9
+main	../calculadora_euros_libras.py	/^def main():$/;"	kind:function	line:22
+calculadoraBasic.py	../calculadoraBasic.py	1;"	kind:file	line:1
+numero1	../calculadoraBasic.py	/^numero1= int(input('Introduce el primer numero '))$/;"	kind:variable	line:6
+numero2	../calculadoraBasic.py	/^numero2= int(input('Introduce el primer numero '))$/;"	kind:variable	line:8
+tipoOperacion	../calculadoraBasic.py	/^tipoOperacion=input('Qué tipo de operacion hemos de realizar (suma(1),resta(2),multiplicacion(3),division(4)) ')$/;"	kind:variable	line:10
+condicionales.py	../condicionales.py	1;"	kind:file	line:1
+edad	../condicionales.py	/^    edad = int(input('cual es tu edad?'))$/;"	kind:variable	line:22
+lista	../condicionales.py	/^    lista=[]$/;"	kind:variable	line:40
+personas	../condicionales.py	/^    personas=[]$/;"	kind:variable	line:41
+edades	../condicionales.py	/^    edades=[]$/;"	kind:variable	line:42
+nombre	../condicionales.py	/^        nombre = input('Dime tu nombre : ')$/;"	kind:variable	line:44
+edad	../condicionales.py	/^        edad=int(input('Dime tu edad : '))$/;"	kind:variable	line:45
+edadMaxima	../condicionales.py	/^    edadMaxima=0$/;"	kind:variable	line:52
+posicionEdadMaxima	../condicionales.py	/^    posicionEdadMaxima=0$/;"	kind:variable	line:53
+edadMaxima	../condicionales.py	/^            edadMaxima=i$/;"	kind:variable	line:58
+posicionEdadMaxima	../condicionales.py	/^            posicionEdadMaxima=edades.index(i)$/;"	kind:variable	line:60
+caracter	../condicionales.py	/^    caracter=input('Insertar una letra : ').lower()$/;"	kind:variable	line:72
+conjuntos_diccionarios.py	../conjuntos_diccionarios.py	1;"	kind:file	line:1
+conjuntos	../conjuntos_diccionarios.py	/^conjuntos =set()$/;"	kind:variable	line:8
+conjuntos	../conjuntos_diccionarios.py	/^conjuntos={}$/;"	kind:variable	line:10
+conjuntos	../conjuntos_diccionarios.py	/^conjuntos={1,2,3,4,5,5,'prueba',True,('lunes','martes')}$/;"	kind:variable	line:13
+conjunto01	../conjuntos_diccionarios.py	/^conjunto01={1,2,3}$/;"	kind:variable	line:32
+conjunto02	../conjuntos_diccionarios.py	/^conjunto02={1,3,2,4}$/;"	kind:variable	line:33
+union	../conjuntos_diccionarios.py	/^union = conjunto01 | conjunto02$/;"	kind:variable	line:37
+union	../conjuntos_diccionarios.py	/^union = conjunto01 & conjunto02$/;"	kind:variable	line:41
+union	../conjuntos_diccionarios.py	/^union = conjunto01-conjunto02$/;"	kind:variable	line:45
+union	../conjuntos_diccionarios.py	/^union = conjunto01 ^ conjunto02$/;"	kind:variable	line:49
+diccionario	../conjuntos_diccionarios.py	/^diccionario = {$/;"	kind:variable	line:59
+agenda01	../conjuntos_diccionarios.py	/^agenda01 ={$/;"	kind:variable	line:77
+equipoNBA	../conjuntos_diccionarios.py	/^equipoNBA={$/;"	kind:variable	line:85
+contarcuantoscaracteresmayuscula.py	../contarcuantoscaracteresmayuscula.py	1;"	kind:file	line:1
+contador	../contarcuantoscaracteresmayuscula.py	/^def contador(param1):$/;"	kind:function	line:7
+main	../contarcuantoscaracteresmayuscula.py	/^def main():$/;"	kind:function	line:21
+cuadrado.py	../cuadrado.py	1;"	kind:file	line:1
+turtle	../cuadrado.py	/^import turtle$/;"	kind:namespace	line:6
+ventana	../cuadrado.py	/^ventana = turtle.Screen()$/;"	kind:variable	line:7
+tortuguita	../cuadrado.py	/^tortuguita=turtle.Turtle()$/;"	kind:variable	line:8
+dado20.py	../dado20.py	1;"	kind:file	line:1
+random	../dado20.py	/^import random$/;"	kind:namespace	line:7
+os	../dado20.py	/^import os$/;"	kind:namespace	line:8
+call	../dado20.py	/^from subprocess import call$/;"	kind:namespace	line:9
+generaNumero	../dado20.py	/^def generaNumero():$/;"	kind:function	line:12
+consultaNumero	../dado20.py	/^def consultaNumero(numero):$/;"	kind:function	line:15
+main	../dado20.py	/^def main():$/;"	kind:function	line:18
+ejercicio01.py	../ejercicio01.py	1;"	kind:file	line:1
+math	../ejercicio01.py	/^import math$/;"	kind:namespace	line:1
+a	../ejercicio01.py	/^a= float(input('valor de a : '))$/;"	kind:variable	line:7
+b	../ejercicio01.py	/^b = float(input('valor de b : '))$/;"	kind:variable	line:8
+a	../ejercicio01.py	/^a=a**2$/;"	kind:variable	line:11
+b	../ejercicio01.py	/^b=b**2$/;"	kind:variable	line:12
+c	../ejercicio01.py	/^c=(a+b)**0.5$/;"	kind:variable	line:17
+radio	../ejercicio01.py	/^radio = float(input('Dime el radio : ' ))$/;"	kind:variable	line:28
+area	../ejercicio01.py	/^area = ( math.pi * radio**2 )$/;"	kind:variable	line:30
+longitud	../ejercicio01.py	/^longitud = 2*math.pi*radio$/;"	kind:variable	line:34
+ejercicio1.py	../ejercicio1.py	1;"	kind:file	line:1
+num_max	../ejercicio1.py	/^def num_max(param1 , param2 , param3):$/;"	kind:function	line:1
+main	../ejercicio1.py	/^def main():$/;"	kind:function	line:13
+encriptacion.py	../encriptacion.py	1;"	kind:file	line:1
+os	../encriptacion.py	/^import os$/;"	kind:namespace	line:9
+KEYS	../encriptacion.py	/^KEYS = {$/;"	kind:variable	line:11
+cifrar	../encriptacion.py	/^def cifrar(mensaje):$/;"	kind:function	line:80
+descifrar	../encriptacion.py	/^def descifrar(mensaje):$/;"	kind:function	line:84
+main	../encriptacion.py	/^def main():$/;"	kind:function	line:88
+entradaDatos.py	../entradaDatos.py	1;"	kind:file	line:1
+nombre	../entradaDatos.py	/^nombre = str(input('Cuál es tu nombre : '))$/;"	kind:variable	line:3
+nombre	../entradaDatos.py	/^nombre = int(input('Dame tu nombre :'))$/;"	kind:variable	line:8
+nombre	../entradaDatos.py	/^nombre = float(input('Dame tu nombre :'))$/;"	kind:variable	line:11
+funciones.py	../funciones.py	1;"	kind:file	line:1
+turtle	../funciones.py	/^import turtle$/;"	kind:namespace	line:4
+suma	../funciones.py	/^def suma(num1,num2):$/;"	kind:function	line:7
+main	../funciones.py	/^def main():$/;"	kind:function	line:13
+haz_rectangulo	../funciones.py	/^def haz_rectangulo(tortuguita):$/;"	kind:function	line:20
+haz_linea	../funciones.py	/^def haz_linea(tortuguita,largo):$/;"	kind:function	line:29
+haz_alto	../funciones.py	/^def haz_alto(tortuguita,alto):$/;"	kind:function	line:33
+funcionesIntegradas.py	../funcionesIntegradas.py	1;"	kind:file	line:1
+n	../funcionesIntegradas.py	/^n=int('10')$/;"	kind:variable	line:7
+n	../funcionesIntegradas.py	/^n=float('10.5')$/;"	kind:variable	line:11
+n	../funcionesIntegradas.py	/^n=str(10)$/;"	kind:variable	line:15
+n	../funcionesIntegradas.py	/^n=bin(10)$/;"	kind:variable	line:19
+n	../funcionesIntegradas.py	/^n=hex(10)$/;"	kind:variable	line:23
+n	../funcionesIntegradas.py	/^n= int('0b1010',2)$/;"	kind:variable	line:28
+n	../funcionesIntegradas.py	/^n= int('0xa' ,16)$/;"	kind:variable	line:32
+n	../funcionesIntegradas.py	/^n=abs(-12)$/;"	kind:variable	line:35
+n	../funcionesIntegradas.py	/^n=round(4.9)$/;"	kind:variable	line:38
+n	../funcionesIntegradas.py	/^n=len('Hola mundo')$/;"	kind:variable	line:42
+funcionesVsGenerador.py	../funcionesVsGenerador.py	1;"	kind:file	line:1
+num_pares_generador	../funcionesVsGenerador.py	/^def num_pares_generador(cantidad):$/;"	kind:function	line:13
+resultado	../funcionesVsGenerador.py	/^resultado = num_pares_generador(10)$/;"	kind:variable	line:20
+numeros_pares	../funcionesVsGenerador.py	/^def numeros_pares(cantidad):$/;"	kind:function	line:26
+devuelve_ciudades	../funcionesVsGenerador.py	/^def devuelve_ciudades(*ciudades):$/;"	kind:function	line:39
+ciudades_devueltas	../funcionesVsGenerador.py	/^ciudades_devueltas = devuelve_ciudades('Llucmajor', 'Inca', 'Manacor', 'Palma')$/;"	kind:variable	line:47
+inicio.py	../inicio.py	1;"	kind:file	line:1
+listavariada	../inicio.py	/^listavariada = ['Hola', 20,20.4,False]$/;"	kind:variable	line:39
+tupla	../inicio.py	/^tupla = (10,20,40,50)$/;"	kind:variable	line:45
+diccionario	../inicio.py	/^diccionario=($/;"	kind:variable	line:50
+listas_tuplas.py	../listas_tuplas.py	1;"	kind:file	line:1
+grupo	../listas_tuplas.py	/^grupo=['lunes','martes','miercoles','jueves','viernes','sabado','domingo',['sabado','lunes',10,True]]$/;"	kind:variable	line:5
+n	../listas_tuplas.py	/^n=1$/;"	kind:variable	line:15
+otroGrupo	../listas_tuplas.py	/^otroGrupo=['Tierra','Marte','Jupiter','Mercurio','Kepler','Orion','Ganimedes','Raticulin']$/;"	kind:variable	line:34
+tupla01	../listas_tuplas.py	/^tupla01=('Lunes','Martes','Miercoles','Jueves','Viernes')$/;"	kind:variable	line:93
+nuevaLista	../listas_tuplas.py	/^nuevaLista=list(tupla01)$/;"	kind:variable	line:96
+nuevaTupla	../listas_tuplas.py	/^nuevaTupla=tuple(grupo)$/;"	kind:variable	line:100
+main.py	../main.py	1;"	kind:file	line:1
+a	../main.py	/^a = 5$/;"	kind:variable	line:3
+f1	../main.py	/^def f1(a, b):$/;"	kind:function	line:8
+f2	../main.py	/^def f2(b):$/;"	kind:function	line:13
+menorque.py	../menorque.py	1;"	kind:file	line:1
+menorque	../menorque.py	/^def menorque(param1,param2):$/;"	kind:function	line:1
+main	../menorque.py	/^def main():$/;"	kind:function	line:9
+num_max_min.py	../num_max_min.py	1;"	kind:file	line:1
+num_max_min	../num_max_min.py	/^def num_max_min(param1 , param2 , param3 ):$/;"	kind:function	line:1
+main	../num_max_min.py	/^def main():$/;"	kind:function	line:26
+numerosprimos.py	../numerosprimos.py	1;"	kind:file	line:1
+compruebaNumero	../numerosprimos.py	/^def compruebaNumero(numero):$/;"	kind:function	line:6
+main	../numerosprimos.py	/^def main():$/;"	kind:function	line:23
+operadores.py	../operadores.py	1;"	kind:file	line:1
+a	../operadores.py	/^a = 0$/;"	kind:variable	line:29
+palindromo.py	../palindromo.py	1;"	kind:file	line:1
+os	../palindromo.py	/^import os$/;"	kind:namespace	line:1
+palindromo	../palindromo.py	/^def palindromo(palabra):$/;"	kind:function	line:5
+main	../palindromo.py	/^def main():$/;"	kind:function	line:14
+ahorcado.py	../POO/ahorcado.py	1;"	kind:file	line:1
+os	../POO/ahorcado.py	/^import os$/;"	kind:namespace	line:6
+random	../POO/ahorcado.py	/^import random$/;"	kind:namespace	line:7
+PALABRAS	../POO/ahorcado.py	/^PALABRAS=[$/;"	kind:variable	line:81
+palabraAleatoria	../POO/ahorcado.py	/^def palabraAleatoria():$/;"	kind:function	line:91
+tablero	../POO/ahorcado.py	/^def tablero(esconderPalabra , intentos):$/;"	kind:function	line:97
+run	../POO/ahorcado.py	/^def run():$/;"	kind:function	line:104
+primercaracternoserepite.py	../primercaracternoserepite.py	1;"	kind:file	line:1
+call	../primercaracternoserepite.py	/^from subprocess import call$/;"	kind:namespace	line:5
+debug	../primercaracternoserepite.py	/^debug=True$/;"	kind:variable	line:7
+main	../primercaracternoserepite.py	/^def main():$/;"	kind:function	line:9
+septiempre.py	../septiempre.py	1;"	kind:file	line:1
+cadena	../septiempre.py	/^cadena='bienvenido a mi aula'$/;"	kind:variable	line:6
+cadena	../septiempre.py	/^cadena='ibecon'$/;"	kind:variable	line:32
+__init__.py	../servidor/piedrapapeltijera/__init__.py	1;"	kind:file	line:1
+arte.py	../servidor/piedrapapeltijera/arte.py	1;"	kind:file	line:1
+arte	../servidor/piedrapapeltijera/arte.py	/^import arte$/;"	kind:namespace	line:7
+juego.py	../servidor/piedrapapeltijera/juego.py	1;"	kind:file	line:1
+os	../servidor/piedrapapeltijera/juego.py	/^import os$/;"	kind:namespace	line:5
+random	../servidor/piedrapapeltijera/juego.py	/^import random$/;"	kind:namespace	line:6
+time	../servidor/piedrapapeltijera/juego.py	/^import time$/;"	kind:namespace	line:7
+flask	../servidor/piedrapapeltijera/juego.py	/^import flask$/;"	kind:namespace	line:9
+arte	../servidor/piedrapapeltijera/juego.py	/^import arte$/;"	kind:namespace	line:11
+variables.py	../variables.py	1;"	kind:file	line:1
+pi	../variables.py	/^pi = 3.14159$/;"	kind:variable	line:6
+radio	../variables.py	/^radio = 3$/;"	kind:variable	line:7
+area	../variables.py	/^area = pi * radio**2$/;"	kind:variable	line:8
+nombre	../variables.py	/^nombre='Javier'$/;"	kind:variable	line:11
+apellidos	../variables.py	/^apellidos='Martinez'$/;"	kind:variable	line:12
+altura	../variables.py	/^altura=1.84$/;"	kind:variable	line:13
+vocales_mayusculas.py	../vocales_mayusculas.py	1;"	kind:file	line:1
+es_mayuscula	../vocales_mayusculas.py	/^def es_mayuscula(param1 ):$/;"	kind:function	line:1
+es_vocal	../vocales_mayusculas.py	/^def es_vocal(param1):$/;"	kind:function	line:4
+main	../vocales_mayusculas.py	/^def main():$/;"	kind:function	line:13
