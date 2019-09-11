@@ -1,4 +1,4 @@
- #PEMDAS 
+ # PEMDAS 
  Orden de las operaciones
 
 Cuando realiza operaciones aritméticas hay exactamente una respuesta correcta. Para evitar confusiones, los matemáticos han ideado un order estándar de operaciones para los cálculos que involucran más de una operación aritmética.
@@ -33,3 +33,37 @@ Para que no se confunda recuerde el PEMDAS que es la abreviatura para Parenthese
 
 
 ```
+
+
+
+# Virtualenv
+
+* pip3 install virtualenv
+  - virtualenv venv --> crea un entorno virtual 
+  - virtualenv --python=python2.7 venv
+  - source venv/bin/activate
+  - pip freeze ( para ver lo que tenemos instalado )
+
+
+
+
+# Git 
+  Borrar git rm -r --cached "directorio" -> Borra un directorio de git 
+
+     * Ver rama :
+         git branch
+     * Crear rama :
+            git branch apps
+     * Cambiar de rama :
+            git checkout apps
+
+      * Ver estado :
+            git status
+
+      * Hacer commit y subir :
+            git commit -am 'mensaje'
+      * Fusionar una rama:
+        git checkout master 
+        git merge "nombrerama" -m "union de apps a master"
+
+      Primero hacer "fetch"
