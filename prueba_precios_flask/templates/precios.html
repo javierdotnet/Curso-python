@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+                <div class="col-md-4">
+                        <ul class="list-unstyled">
+                                        
+                            <li><img src="{{url_for('.static', filename='img/')}}{{ columna01['img'] }}"></li>
+                            <li>{{ columna01['titulo'] }}</li>
+                            <li>{{ columna01['subitulo'] }}</li>
+                            <li>{{ columna01['precio'] }}</li>
+                            <li>{{ columna01['enlace'] }}</li>
+                            <li>
+                                    <boton  type="submit" class="btn btn-default">
+                                    {{ columna01['boton'] }}
+                                    </boton>
+                                </li>
+                        </ul>
+                </div>
+                <div class="col-md-4">
+                        <ul class="list-unstyled">
+                                <li><img src="{{url_for('.static', filename='img/')}}{{ columna02['img'] }}"></li>
+                                <li>{{ columna02['titulo'] }}</li>
+                                <li>{{ columna02['subitulo'] }}</li>
+                                <li>{{ columna02['precio'] }}</li>
+                                <li>{{ columna02['enlace'] }}</li>
+                                <li>
+                                    <boton  type="submit" class="btn btn-default">
+                                    {{ columna02['boton'] }}
+                                    </boton>
+                                </li>
+                            </ul>
+                </div>
+                <div class="col-md-4">
+                        <ul class="list-unstyled">
+                                <li><img src="{{url_for('.static', filename='img/')}}{{ columna03['img'] }}"></li>
+                                <li>{{ columna03['titulo'] }}</li>
+                                <li>{{ columna03['subitulo'] }}</li>
+                                <li>{{ columna03['precio'] }}</li>
+                                <li>{{ columna03['enlace'] }}</li>
+                                <li>
+                                    <boton  type="submit" class="btn btn-default">
+                                    {{ columna03['boton'] }}
+                                    </boton>
+                                </li>
+                            </ul>
+                </div>
+              </div>
+    </div>
+{% endblock %}
