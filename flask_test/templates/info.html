@@ -1,0 +1,12 @@
+<!-- Herencia de base.html -->
+{% extends 'base.html' %}
+{% block title %}
+{{ super() }}
+Info
+{% endblock %}
+
+{% block texto %}
+{{ super() }}
+Info {{ ip }} <br>
+Cosa {{cosa}} <br>  
+{% endblock %}
