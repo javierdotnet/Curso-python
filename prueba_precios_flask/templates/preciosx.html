@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="container">
+            <div class="row">
+                    {% for key in datos %} 
+                    <h4>
+                            {{key}}
+                    </h4>
+                    
+                    <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><img src="{{url}}{{ key['img'] }}"></li>
+                                <li>{{ key['titulo'] }}</li>
+                                <li>{{ key['subitulo'] }}</li>
+                                <li>{{ key['precio'] }}</li>
+                                <li>{{ key['enlace'] }}</li>
+                                <li>
+                                        <boton  type="submit" class="btn btn-default">
+                                        {{ key['boton'] }}
+                                        </boton>
+                                    </li>
+                            </ul>
+                    </div>
+                    
+                    {%endfor%} 
+                  </div>
+        </div>
+    
+{% endblock %}
