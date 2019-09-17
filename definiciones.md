@@ -67,3 +67,12 @@ Para que no se confunda recuerde el PEMDAS que es la abreviatura para Parenthese
         git merge "nombrerama" -m "union de apps a master"
 
       Primero hacer "fetch"
+
+
+# Virtualizacion en Pyhon
+  1. python3 -m venv env
+  2. source env/bin/activate -> activa el entorno virtual
+  3. pip freeze -> para ver lo que he hemos instalado en este entorno virtual
+  4. Instalar pep8 en el entorno virtual : pip install pep8
+  5. pip freeeze > requirements.txt ( exporta todo lo instalado al archivo requirements.txt)
+  6. pip install -r requirements  ( instala todas las dependencas necesarias desde un archivo)
