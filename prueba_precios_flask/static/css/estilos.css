@@ -17,16 +17,18 @@ html
     box-sizing: border-box;
     font-size: 16px;
     margin-top: 10px;
+    background-image: url('../img/fondoazul.jpeg');
 }
 
-/*
 .col-md-4
 {
-    border:1px red solid;
-  
-    margin:2px 2px;
+    width: 30%;
+    border:1px black solid;
+    margin-right: 1em;
+    box-sizing: border-box;
+   /* margin:2px 2px; */
 }
-*/
+
 
 li
 {
