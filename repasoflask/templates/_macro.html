@@ -1,0 +1,29 @@
+{% macro desplegableMovil(uno, dos, tres, cuatro) %}
+
+    <input type="text" name="nombre" id="nombre">
+    
+
+
+
+{% endmacro %}
+
+{% macro tituloSubtitulo(titulo,subtitulo) %}
+    <h2>{{titulo}}</h2>
+    <h3>{{subtitulo}}</h3>
+
+{% endmacro %}
+
+
+<!-- MACRO : Formulario de contactar -->
+{% macro formularioContactar(campo) %}
+    {{ campo.label }}
+    <!-- **kwargs es un diccionario de argumentos -->
+    {{ campo(**kwargs) | safe }}
+    <br>
+
+    {% if campo.errors %}
+        {% for error in campo.errors %}
+        <h6>{{ error}}</h6>
+        {% endfor%}
+    {% endif %}
+{% endmacro %}
