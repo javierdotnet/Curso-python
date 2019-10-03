@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horoscopo Chino</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <h3 class="titulo">中 国 的 星 形 镜</h3>
+        {% block header %}
+        {% endblock %}
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+        <div class="logo">
+            <h1 class="logo__titulo">天空</h1>
+            <h2 class="logo__subtitulo">Horóscopo Chino</h2>
+        </div>
+        
+        {% block main %}
+        {% endblock %}
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        {% block footer %}
+        {% endblock %}
+    </footer>
+</body>
+
+</html>
